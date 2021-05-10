@@ -1,0 +1,297 @@
+*, *::after, *::before {    
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 1rem/1 'PT Sans', sans-serif;    
+}
+
+a, h1 {
+    text-decoration: none;
+    color: inherit
+}
+
+p, h1, h2, h3, h5, h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+  }
+
+ul {
+    padding: 0;
+}  
+
+li {
+    list-style: none;
+}  
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+/* Reset end */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form-control {
+    border: 1px solid #BFC7DC;    
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;    
+}
+
+.gradient-btn {
+    min-width: 165px;
+    color: white;
+    background: linear-gradient(90deg, 
+    #0CEBEB 0%,
+    #20E3B2 50%,
+    #29FFC6 100%);
+    box-shadow: 0px 4px 20px rgba(32, 228, 179, 0.85);
+    border-radius: 30px;
+}
+
+.text-green {
+    color: #27DEBF !important;    
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.gradient-bg {
+    background: linear-gradient(
+        to right,
+        #f6f7fc 0%, 55%,
+        #00c6ff 55%, 
+        #0072ff 100%
+    );
+}
+
+.header {    
+    padding: 40px 0;
+    color:#29375A;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.container {    
+    max-width: 1120px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.btn {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.main-header-nav {    
+    font-weight: 700;
+    margin-left: 66px;
+}
+
+.info-header-nav {
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.main-header-nav a + a,
+.info-header-nav a + a {
+    margin-left: 30px;
+} 
+
+.main {
+    padding-top: 106px;    
+}
+
+.process-screen-content {
+    width: 819px;
+    height: 475px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 30px 50px;
+}
+
+.process-logo {
+    margin-bottom: 30px;
+}
+
+.process-title {
+    font-size: 2.57rem;
+    color: #29375A;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.waiting-text-box { 
+    max-width: 337px;
+    text-align: center;
+}
+
+.waiting-text {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.tested-email {
+    font-weight: 700;
+}
+
+.action-form .form-control {
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+.process-screen-footer {
+    color: rgba(41, 55, 90, 0.7);
+}
+
+.next-screen-link::after {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 9px;
+    background: url('../img/arrow-icon.svg') no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.process-steps {
+    padding-left: 50px;
+    width: 300px;
+}
+
+.process-steps-title {
+    font-size: 1.7rem;
+    line-height: 1.25;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.process-steps-list {
+    margin-bottom: 30px;
+}
+
+.steps-list-item {
+    position: relative;
+}
+
+.steps-list-item + .steps-list-item {
+    margin-top: 25px;
+}
+
+.list-item-num {
+    position: absolute;
+    width: 40px;
+    line-height: 40px;
+    background: #F6F7FC;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #BBC4DA;
+    font-size: 1.43rem;
+    text-align: center;
+    left: -70px;
+    top: 0;
+}
+
+.list-item-num.active {
+    background-color: #27DEBF;
+    color: white;
+}
+
+.list-item-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.list-item-desq {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+}
+
+.optional-text {
+    font-weight: 700;
+    line-height: 1.43;
+    color: white;
+    max-width: 170px;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-size: 0.86rem;
+    color: rgba(41, 55, 90, 0,7);
+}
+
+.footer-text span + span {
+    margin-top: 5px;
+}
+
+.footer-text span:last-child {
+    color: #29375A;
+}
